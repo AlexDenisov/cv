@@ -1,0 +1,133 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[purple]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\firstname{Alexey}
+\familyname{Denisov}
+\address{}{Donetsk, Ukraine}
+\mobile{+38 066 557 05 91}
+\email{1101.debian@gmail.com}
+\homepage{https://github.com/AlexDenisov}
+\extrainfo{Software should be beautiful. Both inside and outside.}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\maketitle
+
+\section{Brief description}
+\cvline
+  {Summary}
+  {My main direction - iOS and RubyOnRails development.\newline{}
+  This symbiosis allows me to create interacting system of a mobile client and a web service.\newline{}
+  I really enjoy OpenSource software and do my best to develop and contribute OpenSource projects which I'm interested in.}
+
+\section{OpenSource Projects}
+\subsection{Objective-C}
+\cvline
+  {iActiveRecord}
+  {\url{https://github.com/AlexDenisov/iActiveRecord}\newline{}
+  SQLite-based ActiveRecord implementation for iOS}
+\subsection{Ruby}
+\cvline
+  {guard-frank}
+  {\url{https://github.com/AlexDenisov/guard-frank}\newline{}
+  Ruby gem which allows to run Cucumber features for iOS automatically.
+  \newline{}Supports Frank BDD framework.}
+\cvline
+  {guard-calabash-ios}
+  {\url{https://github.com/AlexDenisov/guard-calabash-ios}\newline{}
+  Ruby gem which allows to run Cucumber features for iOS automatically.
+  \newline{}Supports Calabash-iOS BDD framework.}
+\subsection{Ruby On Rails}
+\cvline
+  {QuotePad}
+  {\url{https://github.com/AlexDenisov/QuotePad}\newline{}
+  Simple private service like \url{http://bash.org/}, which can be deployed to your own server.}
+
+
+\section{Commercial Projects}
+  \subsection{Objective-C}
+  \cvline
+    {MyPickup Diary}
+    {\url{http://mypickupdiary.com/}\newline{}
+    Development of iOS application with non-standart design.}
+  \subsection{RubyOnRails}
+  \cvline
+    {Muddler}
+    {\url{http://itunes.apple.com/us/app/muddler/id498512664}\newline{}
+    Development of web backend for mobile clients.}
+  \subsection{Objective-C/RubyOnRails}
+  \cvline
+    {My Lawyer}
+    {\url{http://itunes.apple.com/ru/app/moj-urist/id475311463}\newline{}
+    Development both iOS application and web backend.}
+
+\section{Experience}
+\cventry
+  {Feb 2011 - Present}
+  {iOS/RubyOnRails developer}
+  {MLSDev LLC. Donetsk, Ukraine}
+  {}{}
+  {Assessment of requirements for software development and time estimation. 
+  \newline{}Software development.
+  \newline{}Web-services deployment and support.}
+\cventry
+  {Aug 2010 - Feb 2011}
+  {C++/Qt developer}
+  {WiseTroll (Sole Proprietorship). Donetsk, Ukraine}
+  {}{}
+  {Assessment of requirements for software development and time estimation. 
+  \newline{}Software development.}
+
+
+\section{Development skills}
+\subsection{Programming Languages}
+\cvline
+  {Basic}{Perl, LaTeX}
+\cvline
+  {Intermediate}{C, C++, Ruby, Bash, Cucumber, RSpec}
+\cvline
+  {Expert}{Objective-C}
+\subsection{Frameworks and tools}
+\cvline{iOS}{CocoaPods, RestKit, Cedar, Calabash}
+\cvline{RubyOnRails}{Cucumber, RSpec, Rabl, Devise, CanCan, Twitter Bootstrap}
+
+\section{Server administration skills}
+\cvline
+  {Redmine, GitLabHQ}{Deployment, support and migration to another servers (Debian, Ubuntu)}
+\cvline
+  {Jenkins}{Deployment and support on MacOS X}
+\cvline
+  {Nginx, Apache}{Setup and configuration on rpm- and deb-based linux systems}
+
+\section{Computer skills}
+  \cvline
+  {IDE}{Xcode, Vim, QtCreator}
+  \cvline
+  {OS}{Linux (RedHat, Debian), MacOS X}
+  \cvline
+  {VCS}{Git, Mercurial}
+  \cvline
+  {Development technics}{BDD, TDD, XP, Continuous Integration}
+
+\section{Education}
+  \cventry{Oct 2006 - Dec 2011}{Software Development}{Computer Academy "Step", Donetsk, Ukraine}{}{}
+  {Team member, represented Ukraine at the final of ImagineCup'10 at Poland.}
+
+\section{Public activity}
+  \cvline{LinkedIn}{\url{http://www.linkedin.com/pub/alexey-denisov/2a/bab/a29}}
+  \cvline{Github}{\url{https://github.com/AlexDenisov}}
+  \cvline{CoderWall}{\url{http://coderwall.com/AlexDenisov}}
+  \cvline{Habrahabr}{\url{http://habrahabr.ru/users/1101_debian/}}
+  \cvline{RubyGems}{\url{https://rubygems.org/profiles/58746}}
+
+\end{document}
